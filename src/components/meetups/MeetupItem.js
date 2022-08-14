@@ -11,7 +11,7 @@ function MeetupItem(props) {
             favoritesCtx.removeFavorite(props.id); 
         } else {
             favoritesCtx.addFavorite({
-                id: props.is,
+                id: props.id,
                 title: props.title,
                 description: props.description,
                 image: props.image,
